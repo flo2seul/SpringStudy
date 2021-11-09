@@ -15,11 +15,11 @@ class MemberServiceTest {
     MemberService memberService;
     MemoryMemberRepository repository;
 
-    @BeforeEach
-    public void beforEach() {
-       memberService = new MemberService();
-        repository = new MemoryMemberRepository();
-    }
+//    @BeforeEach
+//    public void beforEach() {
+//         memberService = new MemberService();
+//        repository = new MemoryMemberRepository();
+//    }
 
 
     @AfterEach
